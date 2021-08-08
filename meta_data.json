@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "productivity"
+    },
+    "demo_page": "https://toastrjsdemo.bubbleapps.io/version-test",
+    "description": "toastr is a Javascript library for non-blocking notifications.\nCreate toasts & notifications on your bubble project with ease.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1628445396391x408100863450429300/LogoToastr2.png",
+    "license": "open_source",
+    "link": "https://noncodigo.com/",
+    "name": "Toastr Free",
+    "plugin_instructions": "Use the workflows to initiate the toast notification."
+}

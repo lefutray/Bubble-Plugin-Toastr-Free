@@ -1,0 +1,15 @@
+{
+    "category": "plugins",
+    "display": "Toastr Clear",
+    "fields": {
+        "AAQ": {
+            "caption": "Use animation",
+            "default_val": true,
+            "doc": "Remove current toasts using animation",
+            "editor": "Checkbox",
+            "name": "animation",
+            "rank": 0
+        }
+    },
+    "type": "client_side"
+}

@@ -1,0 +1,114 @@
+{
+    "category": "plugins",
+    "display": "Toastr (Toast)",
+    "fields": {
+        "AAD": {
+            "caption": "Type",
+            "default_val": "Success",
+            "doc": "Type ",
+            "editor": "Dropdown",
+            "name": "notification_type",
+            "options": "Info,Warning,Success,Error",
+            "rank": 0
+        },
+        "AAE": {
+            "caption": "Title (Optional)",
+            "default_val": "My title",
+            "doc": "Toast title",
+            "editor": "DynamicValue",
+            "name": "Choose the type of toast",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Message",
+            "default_val": "My message content...",
+            "doc": "Toast message",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "Position",
+            "default_val": "Top Right",
+            "doc": "Position of the toast when it appears",
+            "editor": "Dropdown",
+            "name": "positionclass",
+            "options": "Top Right,Bottom Right,Bottom Left,Top Left,Top Full Width,Top Center",
+            "rank": 3
+        },
+        "AAH": {
+            "caption": "Newest on top",
+            "default_val": false,
+            "doc": "None",
+            "editor": "Checkbox",
+            "name": "newestontop",
+            "rank": 4
+        },
+        "AAI": {
+            "caption": "Close Button",
+            "default_val": false,
+            "doc": "Show the close button in the toast",
+            "editor": "Checkbox",
+            "name": "closebutton",
+            "rank": 5
+        },
+        "AAJ": {
+            "caption": "progressbar",
+            "default_val": false,
+            "doc": "Show progress bar in the toast",
+            "editor": "Checkbox",
+            "name": "progressbar",
+            "rank": 6
+        },
+        "AAK": {
+            "caption": "Prevent Duplicates",
+            "default_val": false,
+            "doc": "Prevent duplicates toast",
+            "editor": "Checkbox",
+            "name": "preventduplicates",
+            "rank": 7
+        },
+        "AAL": {
+            "caption": "Show duration",
+            "default_val": 300,
+            "doc": "Toast launching time",
+            "editor": "DynamicValue",
+            "name": "showduration",
+            "rank": 8,
+            "value": "number"
+        },
+        "AAM": {
+            "caption": "Hide duration",
+            "default_val": 1000,
+            "doc": "Time to hide from the toast",
+            "editor": "DynamicValue",
+            "name": "hideduration",
+            "rank": 9,
+            "value": "number"
+        },
+        "AAN": {
+            "caption": "Time out",
+            "default_val": 5000,
+            "doc": "Time in miliseconds for close toast itself",
+            "editor": "DynamicValue",
+            "name": "timeout",
+            "optional": false,
+            "rank": 10,
+            "value": "number"
+        },
+        "AAO": {
+            "caption": "Extended Timeout",
+            "default_val": 0,
+            "doc": "How long the toast will display after a user hovers over it",
+            "editor": "DynamicValue",
+            "name": "extendedtimeout",
+            "rank": 11,
+            "value": "number"
+        }
+    },
+    "type": "client_side"
+}
